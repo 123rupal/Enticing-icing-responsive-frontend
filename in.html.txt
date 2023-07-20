@@ -1,0 +1,1819 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!--required meta tags-->
+    <meta charset="utf-8">
+    
+    <meta name="description" content="Building modern responsive website with html5,css,jquery and bootstrap framework">
+    <meta name="keywords" content="HTML5, CSS, jQuery, Bootstrap, Web Design, Web Development, Responsive Website, Modern wwebsite">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <!--google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
+
+    <title>Modern Responsive Website</title>
+    <!--fav icon-->
+    <link rel="shortcut icon" href="img/favicon.ico">
+
+    <!--font awesme icon-->
+    <link rel="stylesheet" href="css/font%20awesome/css/font-awesome.min.css">
+    <!--bootstrap css-->
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <!--animation-->
+    <link rel="stylesheet" href="css/animate/animate.css">
+    <!--magnific popup css-->
+    <link rel="stylesheet" href="css/magnific-popup/magnific-popup.css">
+    <!--Owl-carousel-->
+    <link rel="stylesheet" href="css/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl-carousel/owl.theme.default.min.css">
+    <!--style css-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--Responsive Css-->
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar-fixed-top" data-offset="65">
+    <header>
+        <nav class="navbar navbar-fixed-top" >
+            <div class="container-fluid">
+                <div class="vesco-nav-wrapper">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#vesco-menu">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#home">
+                            <img src="img/logo.png" alt="logo">
+                        </a>
+                    </div>
+                    <div id="vesco-menu" class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav">
+                            <li><a class="smooth-scroll" href="#home">Home</a></li>
+                            <li><a class="smooth-scroll" href="#services">Services</a></li>
+                            <li><a class="smooth-scroll" href="#about">About</a></li>
+                            <li><a class="smooth-scroll" href="#work">Work</a></li>
+                            <li><a class="smooth-scroll" href="#team">Team</a></li>
+                            <li><a class="smooth-scroll" href="#testimonials">Testimonials</a></li>
+                            <li><a class="smooth-scroll" href="#pricing">Pricing</a></li>
+                            <li><a class="smooth-scroll" href="#stats">Stats</a></li>
+                            <li><a class="smooth-scroll" href="#clients">Clients</a></li>
+                            <li><a class="smooth-scroll" href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--Home-->
+    <section id="home">
+
+        <div id="home-cover" class="bg-parallax animated fadeIn">
+
+            <div id="home-content-box">
+
+                <div id="home-content-box-inner" class="text-center">
+
+                    <div id="home-heading" class="animated zoomIn">
+                        <h3>Watch Out<br> The Mordern Responsive Website!</h3>
+                    </div>
+
+                    <div id="home-btn" class="animated zoomIn">
+                        <a class="btn btn-lg btn-general btn-white smooth-scroll" href="#work" role="button" title="View Our Work">View Our Work</a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!--Services-->
+    <section id="services">
+        <div class="content-box">
+            <div class="content-title wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+                <h3>Services</h3>
+                <div class="content-title-underline"></div>
+            </div>
+
+
+            <div class="container">
+                <div class="row ">
+
+                    <div class="col-md-4 col-sm-6">
+
+                        <div class="service-item wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+
+                            <div class="service-item-icon">
+                                <i class="fa fa-paint-brush fa-3x"></i>
+                            </div>
+                            <div class="service-item-title">
+
+                                <h3>Web Design</h3>
+                            </div>
+                            <div class="service-item-content">
+                                <p>Tamen fabulas id varias tamen qui nam enim.</p>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+
+
+                        <div class="service-item wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+
+                            <div class="service-item-icon">
+                                <i class="fa fa-laptop fa-3x"></i>
+                            </div>
+                            <div class="service-item-title">
+
+                                <h3>WEB DEVELOPMENT</h3>
+                            </div>
+                            <div class="service-item-content">
+                                <p>Tamen fabulas id varias tamen qui nam enim.</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+
+                        <div class="service-item wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+
+                            <div class="service-item-icon">
+                                <i class="fa fa-tablet fa-3x"></i>
+                            </div>
+                            <div class="service-item-title">
+
+                                <h3>MOBILE APPS</h3>
+                            </div>
+                            <div class="service-item-content">
+                                <p>Tamen fabulas id varias tamen qui nam enim.</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+
+                        <div class="service-item wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+
+                            <div class="service-item-icon">
+                                <i class="fa fa-search fa-3x"></i>
+                            </div>
+                            <div class="service-item-title">
+
+                                <h3>SEO OPTIMIZATION</h3>
+                            </div>
+                            <div class="service-item-content">
+                                <p>Tamen fabulas id varias tamen qui nam enim.</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+
+                        <div class="service-item wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+
+                            <div class="service-item-icon">
+                                <i class="fa fa-pencil-square-o fa-3x"></i>
+                            </div>
+                            <div class="service-item-title">
+
+                                <h3>UX DESIGN</h3>
+                            </div>
+                            <div class="service-item-content">
+                                <p>Tamen fabulas id varias tamen qui nam enim.</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+
+                        <div class="service-item wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+
+                            <div class="service-item-icon">
+                                <i class="fa fa-life-ring fa-3x"></i>
+                            </div>
+                            <div class="service-item-title">
+
+                                <h3>SUPPORT</h3>
+                            </div>
+                            <div class="service-item-content">
+                                <p>Tamen fabulas id varias tamen qui nam enim.</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--About-->
+    <section id="about">
+        <!--About left side with content-->
+        <div id="about-bg-diagonal" class="bg-parallax"></div>
+
+        <!--About left side with content-->
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-4">
+
+                    <div class="about-content-box">
+
+                        <div class="about-content-box-outer">
+
+                            <div class="about-content-box-inner">
+
+                                <div class="content-title  wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+                                    <h3> About Vesco </h3>
+                                    <div class="content-title-underline   wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s"></div>
+                                </div>
+
+                                <div id="about-desc" class=" wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+
+                                    <p>Tamen fabulas id varias tamen qui nam enim.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                                </div>
+
+                                <div id="about-btn" class=" wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+
+                                    <a class="btn btn-lg btn-general btn-blue smooth-scroll" href="#work" role="button" title="View Work">Our Work</a>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+    </section>
+
+    <!--Work-->
+    <section id="work" class="workMagnific">
+        <div class="content-box">
+            <div class="content-title wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+                <h3>Our Work</h3>
+                <div class="content-title-underline"></div>
+            </div>
+
+
+            <div class="container-fluid">
+
+                <div class="row no-gutters wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+
+                    <div class=" compact col-md-3 col-sm-4">
+                        <div class="img-wrapper">
+                            <a href="img/work/1.jpg" title="Work Description goes here">
+                                <img src="img/work/1.jpg" class="img-responsive" alt="Work">
+                            </a>
+                        </div>
+                    </div>
+                    <div class=" compact col-md-3 col-sm-4">
+                        <div class="img-wrapper">
+                            <a href="img/work/2.jpg" title="Work Description goes here">
+                                <img src="img/work/2.jpg" class="img-responsive" alt="Work">
+                            </a>
+                        </div>
+                    </div>
+                    <div class=" compact col-md-3 col-sm-4">
+                        <div class="img-wrapper">
+                            <a href="img/work/3.jpg" title="Work Description goes here">
+                                <img src="img/work/3.jpg" class="img-responsive" alt="Work">
+                            </a>
+                        </div>
+                    </div>
+                    <div class=" compact col-md-3 col-sm-4">
+                        <div class="img-wrapper">
+                            <a href="img/work/4.jpg" title="Work Description goes here">
+                                <img src="img/work/4.jpg" class="img-responsive" alt="Work">
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class=" compact col-md-3 col-sm-4">
+                        <div class="img-wrapper">
+                            <a href="img/work/5.jpg" title="Work Description goes here">
+                                <img src="img/work/5.jpg" class="img-responsive" alt="Work">
+                            </a>
+                        </div>
+                    </div>
+                    <div class=" compact col-md-3 col-sm-4">
+                        <div class="img-wrapper">
+                            <a href="img/work/6.jpg" title="Work Description goes here">
+                                <img src="img/work/6.jpg" class="img-responsive" alt="Work">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="compact col-md-3 col-sm-4">
+                        <div class="img-wrapper">
+                            <a href="img/work/7.jpg" title="Work Description goes here">
+                                <img src="img/work/7.jpg" class="img-responsive" alt="Work">
+                            </a>
+                        </div>
+                    </div>
+                    <div class=" compact col-md-3 col-sm-4">
+                        <div class="img-wrapper">
+                            <a href="img/work/8.jpg" title="Work Description goes here">
+                                <img src="img/work/8.jpg" class="img-responsive" alt="Work">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--content box-->
+    </section>
+
+    <!-- Team-->
+    <section id="team">
+        <div class="content-box">
+            <div class="content-title wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+                <h3>Our Team</h3>
+                <div class="content-title-underline"></div>
+            </div>
+
+
+            <div class="container">
+
+                <div class="row wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+
+                    <div class="col-md-12">
+
+                        <div id="team-members" class="owl-carousel owl-theme">
+                            <div class="team-member">
+                                <img src="img/team/team-1.jpg" class="img-responsive" alt="team member">
+                                <div class="team-member-info text-center">
+                                    <h4 class="team-member-name">Daniel Waltrous </h4>
+                                    <h4 class="team-member-designation">CEO</h4>
+                                    <ul class="social-list">
+                                        <li><a href="#" class="social-icon icon-gray"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#" class="social-icon icon-gray"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#" class="social-icon icon-gray"><i class="fa fa-google-plus"></i></a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="team-member">
+                                <img src="img/team/team-2.jpg" class="img-responsive" alt="team member">
+                                <div class="team-member-info text-center">
+                                    <h4 class="team-member-name">Sarah Williams </h4>
+                                    <h4 class="team-member-designation">FOUNDER</h4>
+                                    <ul class="social-list">
+                                        <li><a href="#" class="social-icon icon-gray"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#" class="social-icon icon-gray"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#" class="social-icon icon-gray"><i class="fa fa-google-plus"></i></a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="team-member">
+                                <img src="img/team/team-3.jpg" class="img-responsive" alt="team member">
+                                <div class="team-member-info text-center">
+                                    <h4 class="team-member-name">Walter Harris </h4>
+                                    <h4 class="team-member-designation">CO-FOUNDER</h4>
+                                    <ul class="social-list">
+                                        <li><a href="#" class="social-icon icon-gray"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#" class="social-icon icon-gray"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#" class="social-icon icon-gray"><i class="fa fa-google-plus"></i></a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="team-member">
+                                <img src="img/team/team-4.jpg" class="img-responsive" alt="team member">
+                                <div class="team-member-info text-center">
+                                    <h4 class="team-member-name">Steve Mike </h4>
+                                    <h4 class="team-member-designation">Sr. DEVELOPER</h4>
+                                    <ul class="social-list">
+                                        <li><a href="#" class="social-icon icon-gray"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#" class="social-icon icon-gray"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#" class="social-icon icon-gray"><i class="fa fa-google-plus"></i></a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="team-member">
+                                <img src="img/team/team-5.jpg" class="img-responsive" alt="team member">
+                                <div class="team-member-info text-center">
+                                    <h4 class="team-member-name">Mike Terra </h4>
+                                    <h4 class="team-member-designation">SALES</h4>
+                                    <ul class="social-list">
+                                        <li><a href="#" class="social-icon icon-gray"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#" class="social-icon icon-gray"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#" class="social-icon icon-gray"><i class="fa fa-google-plus"></i></a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Testimonials-->
+    <section id="testimonials">
+        <div id="testimonials-cover" class="bg-parallax">
+            <div class="content-box">
+                <div class="content-title content-title-white wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+                    <h3>What Our Customers Say</h3>
+                    <div class="content-title-underline"></div>
+                </div>
+                <div class="container">
+
+                    <div class="row wow animated bounceInDown" data-wow-duration="1s" data-wow-delay=".5s">
+
+                        <div class="col-md-12">
+                            <div id="customers-testimonials" class=" text-center owl-carousel owl-theme">
+
+                                <div class="testimonial ">
+                                    <img src="img/client/client-1.jpg" class="img-responsive img-circle" alt="testimonial">
+                                    <blockquote class="text-center">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                                    </blockquote>
+                                    <div class="testimonial-author">
+                                        <strong>Daniel Waltrous</strong>
+                                        <span>CEO</span>
+                                    </div>
+                                </div>
+
+                                <div class="testimonial ">
+                                    <img src="img/client/client-2.jpg" class="img-responsive img-circle" alt="testimonial">
+                                    <blockquote class="text-center">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                                    </blockquote>
+                                    <div class="testimonial-author">
+                                        <strong>John Mathew</strong>
+                                        <span>CEO</span>
+                                    </div>
+                                </div>
+
+                                <div class="testimonial ">
+                                    <img src="img/client/client-3.jpg" class="img-responsive img-circle" alt="testimonial">
+                                    <blockquote class="text-center">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                                    </blockquote>
+                                    <div class="testimonial-author">
+                                        <strong>Sarah Smith</strong>
+                                        <span>CEO</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Pricing-->
+    <section id="pricing">
+        <div class="content-box">
+            <div class="content-title wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+                <h3>Our Pricing </h3>
+                <div class="content-title-underline"></div>
+            </div>
+            <div class="container">
+                <div class="row ">
+                    <div class="col-md-4 wow animated zoomIn" data-wow-duration="1s" data-wow-delay=".5s">
+                        <div class="pricing-box text-center">
+                            <h4 class="pricing-title">Basic</h4>
+                            <h3 class="pricing-value">49<sup>$</sup></h3>
+                            <ul class="pricing-spec">
+                                <li>
+                                    <p>500 EMAILS</p>
+                                </li>
+                                <li>
+                                    <p>5GB DISK SPACE</p>
+                                </li>
+                                <li>
+                                    <p>UNLIMITED DOMAINS</p>
+                                </li>
+                            </ul>
+                            <div class="pricing-btn"><a class="btn btn-lg btn-general btn-blue" href="#" role="button">Purchase</a></div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 wow animated bounceInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                        <div class="pricing-box pricing-box-lg text-center">
+                            <h4 class="pricing-title">Enterprise</h4>
+                            <h3 class="pricing-value">79<sup>$</sup></h3>
+                            <ul class="pricing-spec">
+                                <li>
+                                    <p>500 EMAILS</p>
+                                </li>
+                                <li>
+                                    <p>5GB DISK SPACE</p>
+                                </li>
+                                <li>
+                                    <p>UNLIMITED DOMAINS</p>
+                                </li>
+                            </ul>
+                            <div class="pricing-btn"><a class="btn btn-lg btn-general btn-white" href="#" role="button">Purchase</a></div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 wow animated zoomIn" data-wow-duration="1s" data-wow-delay=".5s">
+                        <div class="pricing-box text-center">
+                            <h4 class="pricing-title">Standard</h4>
+                            <h3 class="pricing-value">59<sup>$</sup></h3>
+                            <ul class="pricing-spec">
+                                <li>
+                                    <p>500 EMAILS</p>
+                                </li>
+                                <li>
+                                    <p>5GB DISK SPACE</p>
+                                </li>
+                                <li>
+                                    <p>UNLIMITED DOMAINS</p>
+                                </li>
+                            </ul>
+                            <div class="pricing-btn"><a class="btn btn-lg btn-general btn-blue" href="#" role="button">Purchase</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Stats-->
+    <section id="stats">
+        <div id="stats-cover" class="bg-parallax">
+            <div class="content-box">
+                <div class="content-title content-title-white wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+                    <h3>We never Stop improving</h3>
+                    <div class="content-title-underline"></div>
+                </div>
+
+
+                <div class="container">
+
+                    <div class="row text-center wow animated bounceInLeft" data-wow-duration="1s" data-wow-delay=".5s">
+
+                        <div class="col-md-3 col-sm-6">
+                            <div class="stats-item">
+                                <i class="fa fa-cloud-download fa-5x"></i>
+                                <h2><span class="counter">1599</span><span>+</span></h2>
+                                <p>Downloads</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="stats-item">
+                                <i class="fa fa-star-o fa-5x"></i>
+                                <h2><span class="counter">2099</span><span>+</span></h2>
+                                <p>Awards</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6">
+                            <div class="stats-item">
+                                <i class="fa fa-heart-o fa-5x"></i>
+                                <h2><span class="counter">5673</span><span>+</span></h2>
+                                <p>Likes</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6">
+                            <div class="stats-item">
+                                <i class="fa fa-check fa-5x"></i>
+                                <h2><span class="counter">2800</span><span>+</span></h2>
+                                <p>Recommended</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--clients-->
+    <section id="clients">
+        <div class="content-box">
+            <div class="content-title wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+                <h3>Clients</h3>
+                <div class="content-title-underline"></div>
+            </div>
+
+
+            <div class="container">
+
+                <div class="row wow animated bounceInLeft" data-wow-duration="1s" data-wow-delay=".5s">
+
+                    <div class="col-md-12">
+                        <div id="client-list" class="owl-carousel owl-theme">
+                            <div class="client">
+                                <img src="img/client/logos/logo-1.jpg" class="img-responsive" alt="client">
+                            </div>
+                            <div class="client">
+                                <img src="img/client/logos/logo-2.jpg" class="img-responsive" alt="client">
+                            </div>
+                            <div class="client">
+                                <img src="img/client/logos/logo-3.jpg" class="img-responsive" alt="client">
+                            </div>
+                            <div class="client">
+                                <img src="img/client/logos/logo-4.jpg" class="img-responsive" alt="client">
+                            </div>
+                            <div class="client">
+                                <img src="img/client/logos/logo-5.jpg" class="img-responsive" alt="client">
+                            </div>
+                            <div class="client">
+                                <img src="img/client/logos/logo-6.jpg" class="img-responsive" alt="client">
+                            </div>
+                            <div class="client">
+                                <img src="img/client/logos/logo-7.jpg" class="img-responsive" alt="client">
+                            </div>
+                            <div class="client">
+                                <img src="img/client/logos/logo-8.jpg" class="img-responsive" alt="client">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div id="contact">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div id="contact-left">
+                            <h3> VESCO</h3>
+                            <p>We believe in <strong>Simple</strong>,<strong> Clean</strong> & <strong>Modern</strong> Design Standards with Responsive Approach. Browse the amazing work of our company.</p>
+                            <div id="contact-info">
+                                <address>
+                                    <strong>Headquarters:</strong><br>
+                                    <p>221 Jockey Hollow, Suite 600
+                                        Smithtown, NY 11787
+                                    </p>
+                                </address>
+                                <div id="phone-fax-email">
+                                    <p>
+                                        <strong>Phone:</strong><span>(91) 8974 56984 </span><br>
+                                        <strong>Fax:</strong><span>(91) 8974 56984 </span><br>
+                                        <strong>Email:</strong><span>info@vesco.com </span><br>
+                                    </p>
+                                </div>
+                            </div>
+                            <ul class="social-list">
+                                <li><a href="#" class="social-icon icon-white"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#" class="social-icon icon-white"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#" class="social-icon icon-white"><i class="fa fa-youtube-play"></i></a></li>
+                                <li><a href="#" class="social-icon icon-white"><i class="fa fa-google-plus"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div id="contact-right">
+                            <h3>Contact Us</h3>
+                            <form action="#">
+                                <input type="text" name="full-name" placeholder="Full Name" class="form-control">
+                                <input type="text" name="email" placeholder="Email Address" class="form-control">
+                                <textarea rows="5" name="message" placeholder="Message..." class="form-control"></textarea>
+
+                                <div id="send-btn">
+                                    <a class="btn btn-lg btn-general btn-white smooth-scroll" href="#" role="button">SEND</a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer-bottom">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div id="footer-copyrights">
+                            <p>Copyrights &copy; 2019 All Rights Reserved By Vesco Inc.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 hidden-sm hidden-xs">
+                        <div id="footer-menu">
+                            <ul>
+                                <li><a class="smooth-scroll" href="#home">Home</a>/</li>
+                                <li><a class="smooth-scroll" href="#services">Services</a>/</li>
+                                <li><a class="smooth-scroll" href="#work">Work</a>/</li>
+                                <li><a class="smooth-scroll" href="#team">Team</a>/</li>
+                                <li><a class="smooth-scroll" href="#testimonials">Testimonials</a>/</li>
+                                <li><a class="smooth-scroll" href="pricing">Pricing</a>/</li>
+                                <li><a class="smooth-scroll" href="stats">Stats</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#home" class="btn btn-sm btn-blue btn-back-to-top smooth-scroll hidden-sm hidden-xs" title="home" role="button" id="back-to-top"><i class="fa fa-angle-up"></i></a>
+    </footer>
+
+
+
+    <!--jquery-->
+    <script src="js/jquery.js"></script>
+
+    <!-- bootstrap js-->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!--wow js-->
+    <script src="js/wow/wow.min.js"></script>
+    <!--magnific popup js-->
+    <script src="js/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <!--Owl Carousel JS-->
+    <script src="js/owl-carousel/owl.carousel.min.js"></script>
+    <!--Counter-->
+    <script src="js/counter/jquery.waypoints.min.js"></script>
+    <script src="js/counter/jquery.counterup.min.js"></script>
+    <!--easing-->
+    <script src="js/easing/jquery.easing.1.3.js"></script>
+    <!--custom js-->
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
+
+
+
+*******************************style.css
+
+/*=============================
+
+default values:
+
+font family    : Roboto Condensed
+
+greenish blue  : #34c6d3 (buttons icons links lines backgrounds)
+
+steel gray     : #41464b (headings)
+blue bayous    : #64707b (paragraphs)
+white          : #fff    (text with black backgrounds)
+
+black          : #000   
+
+==============================*/
+
+
+/* General css*/
+
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+
+    font-family: "Roboto Condensed", sans-serif;
+
+}
+
+p {
+    color: #64707b;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+h3 {
+    color: #41464b;
+    text-transform: uppercase;
+}
+
+/*=============================
+       home
+==============================*/
+#home {
+    height: 100%;
+}
+
+#home-cover {
+    height: 100%;
+    background-image: url("../img/bg-home.jpg");
+
+}
+
+#home-content-box {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+#home-content-box-inner {
+    display: table-cell;
+    vertical-align: middle;
+    /* text-align: center;*/
+}
+
+#home-heading h3 {
+    color: #fff;
+    font-size: 55px;
+    font-weight: 700;
+    margin: 20px 0 20px 0;
+}
+
+/*=============================
+       parallax effect(Generic)
+==============================*/
+.bg-parallax {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+/*=============================
+       BUTTONS(Generic)
+==============================*/
+.btn-general {
+    border-width: 2px;
+    border-radius: 0;
+    padding: 12px 26px 12px 26px;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.btn-white {
+    border-color: #fff;
+    color: #fff;
+}
+
+.btn-white:hover,
+.btn-white:focus {
+    background-color: #fff;
+    color: #41464b;
+}
+
+.btn-blue {
+    border-color: #34c6d3;
+    color: #34c6d3;
+}
+
+.btn-blue:hover,
+.btn-blue:focus {
+    background-color: #34c6d3;
+    color: #fff;
+}
+
+.btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 22px;
+    padding: 3px 15px;
+    border-radius: 0;
+    display: none;
+}
+
+/*=============================
+       Animate
+==============================*/
+/* #home-cover,
+#home-heading,
+#home-btn {
+    animation-duration: .5s;
+}
+
+#home-cover {
+    animation-delay: .1s;
+}
+
+#home-heading {
+    animation-delay: .5s;
+}
+
+#home-btn {
+    animation-delay: 1s;
+} */
+#home-cover,
+#home-heading,
+#home-btn {
+    -webkit-animation-duration: .5s;
+            animation-duration: .5s;
+}
+
+#home-cover {
+    -webkit-animation-delay: .1s;
+            animation-delay: .1s;
+}
+
+#home-heading {
+    -webkit-animation-delay: .5s;
+            animation-delay: .5s;
+}
+
+/*=============================
+       content(generic)
+==============================*/
+.content-box {
+    padding: 60px 0px 60px 0;
+}
+
+.content-title h3 {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 0 30px 0;
+}
+
+.content-title-white {
+    color: #fff;
+}
+
+.content-title-underline {
+    width: 30px;
+    height: 3px;
+    background-color: #34c6d3;
+    margin: 0 auto 30px auto;
+}
+
+/*=============================
+       services
+==============================*/
+.service-item {
+    padding: 20px 0 20px 0;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.service-item-icon i {
+    color: #43c6d3;
+    float: left;
+    padding: 15px;
+    margin-right: 25px;
+    width: 75px;
+    height: 75px;
+    text-align: center;
+}
+
+.service-item:hover .service-item-icon i {
+    color: #fff;
+    background-color: #43c6d3;
+}
+
+.service-item-title h3 {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 0 10px 0;
+}
+
+.service-item-content p {
+    margin: 0;
+    padding-left: 85px;
+}
+
+/*=============================
+       about
+==============================*/
+#about {
+    padding-left: 200px;
+    padding-top: 200px;
+}
+
+#about-bg-diagonal {
+    width: 60%;
+    height: 700px;
+    float: right;
+    background-image: url(../img/bg-about.jpg);
+    border-left: 200px solid #fff;
+    border-top: 700px solid transparent;
+}
+
+#about-content-box {
+    float: left;
+    height: 700px;
+    margin-left: 50px;
+    padding-left: 85px;
+}
+
+#about-content-box-outer {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+#about-content-box-inner {
+    display: table-cell;
+    vertical-align: middle;
+    margin-top: 250px;
+}
+
+#about .content-title h3 {
+    text-align: left;
+}
+
+#about .content-title-underline {
+    margin: 0 0 30px 0;
+}
+
+#about-desc p {
+    margin-bottom: 30px;
+}
+
+/*=============================
+       Work
+==============================*/
+
+
+.compact {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.img-wrapper {
+    overflow: hidden;
+}
+.img-wrapper img {
+    -webkit-transition: -webkit-transform 1s ease;
+    transition: -webkit-transform 1s ease;
+    -o-transition: transform 1s ease;
+    transition: transform 1s ease;
+    transition: transform 1s ease, -webkit-transform 1s ease;
+}
+
+.img-wrapper img:hover {
+    -webkit-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+            transform: scale(1.5);
+    cursor: -webkit-zoom-in;
+    cursor: zoom-in;
+}
+
+/*=============================
+       Team
+==============================*/
+.team-member {
+    margin: 0 15px;
+}
+
+.team-member-info {
+    padding: 10px 0 30px 0;
+}
+
+h4.team-member-name {
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding-top: 2px;
+}
+
+h4.team-member-designation {
+    color: #34c6d3;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-style: italic;
+    margin-top: 5px;
+
+}
+
+/*=============================
+       Social
+==============================*/
+.social-list {
+    padding-left: 0;
+}
+
+.social-list li {
+    list-style: none;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-right: 6px;
+    margin-top: 10px;
+}
+
+.social-icon i {
+    font-size: 17px;
+}
+
+.icon-gray i {
+    color: #64707b;
+}
+
+.icon-white i {
+    color: #fff;
+}
+
+.social-icon i:hover {
+    color: #34c6d3;
+}
+
+/*=============================
+       Testimonials
+==============================*/
+#testimonials-cover {
+    background-image: url(../img/bg-testimonials.jpg);
+}
+
+#testimonials .content-box {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+#customers-testimonials {
+    padding: 50px 0;
+}
+
+.testimonial img {
+    max-width: 120px;
+    margin: 0 auto 0 auto;
+}
+
+.testimonial blockquote {
+    border: 0;
+    font-family: Georgia, sans-serif;
+    font-style: italic;
+    color: #fff;
+    padding: 6px 150px;
+    position: relative;
+}
+
+.testimonial blockquote p {
+    color: #fff;
+}
+
+.testimonial blockquote::before,
+.testimonial blockquote::after {
+    font-size: 80px;
+    font-style: normal;
+    line-height: 1;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+}
+
+.testimonial blockquote::before {
+    content: "\201C";
+    top: 0;
+    left: 100px;
+}
+
+.testimonial blockquote::after {
+    content: "\201D";
+    bottom: 0;
+    right: 100px;
+
+}
+
+.testimonial-author {
+    color: #fff;
+    font-size: 17px;
+}
+
+.testimonial-author p strong {
+    display: block;
+}
+
+/*=============================
+       Pricing
+==============================*/
+.pricing-box {
+    border: 3px solid #34c6d3;
+    padding: 50px 0;
+    margin: 60px 0;
+}
+
+h4.pricing-title {
+    background-color: #34c6d3;
+    color: #fff;
+    display: inline-block;
+    padding: 7px 15px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 0 30px 0;
+}
+
+h3.pricing-value {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+h3.pricing-spec {
+    list-style: none;
+    padding-left: 0;
+    margin: 20px 0 60px 0;
+    padding-bottom: 60px;
+}
+
+ul.pricing-spec li p {
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.pricing-spec li {
+    list-style: none;
+}
+
+ul.pricing-spec {
+    margin-bottom: 50px;
+    padding-left: 0;
+}
+
+.pricing-box-lg {
+    padding: 90px 0;
+    margin: 0;
+    background-color: #34c6d3;
+}
+
+.pricing-box-lg h4.pricing-title {
+    color: #34c6d3;
+    background-color: #fff;
+}
+
+.pricing-box-lg ul.pricing-spec li p {
+    color: #fff;
+}
+
+/*=============================
+       Stats
+==============================*/
+#stats-cover {
+    background-image: url("../img/bg-stats.jpg");
+}
+
+#stats .content-box {
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.stats-item {
+    padding: 100px 0;
+}
+
+.stats-item i {
+    color: #34c6d3
+}
+
+.stats-item h2 {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 1px;
+}
+
+.stats-item p {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+.stats-item {
+    padding-bottom: 0;
+}
+
+/*=============================
+       Clients
+==============================*/
+.client {
+    padding: 40px 0;
+}
+
+/*=============================
+       Contact
+==============================*/
+footer {
+    background-color: #41464b;
+    padding-top: 30px;
+    border-top: 5px solid rgba(0, 0, 0, 0.1);
+}
+
+#contact-left h3,
+#contact-right h3 {
+    color: #fff;
+    font-size: 27px;
+    font-weight: 700;
+}
+
+#contact-left p {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+#contact-info {
+    background-image: url("../img/world-map.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+address {
+    color: #fff;
+}
+
+address strong,
+#phone-fax-email strong {
+    letter-spacing: 1px;
+}
+
+form .form-control {
+    background: transparent;
+    border-radius: 0;
+    border-color: #fff;
+    font-size: 17px;
+    font-weight: 300;
+    padding: 8px 16px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+adress strong{
+    font-size: 16px;
+}
+
+/*=============================
+       Footer
+==============================*/
+#footer-bottom {
+    border-color: rgba(0, 0, 0, 0.1);
+    padding: 30px 0;
+    margin-top: 60px;
+}
+
+#footer-copyrights p {
+    margin: 0;
+    color: #fff;
+}
+
+#footer-menu {
+    float: left;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#footer-menu ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+#footer-menu ul li {
+    display: inline-block
+}
+
+#footer-menu a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+#footer-menu a:hover {
+    color: #34c6d3;
+
+}
+
+/*=============================
+       Navigation
+==============================*/
+.navbar {
+    padding: 20px 0;
+    -webkit-transition: all .5s ease-in-out;-o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.vesco-top-nav {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 7px 0;
+}
+
+.vesco-nav-wrapper {
+    padding: 0 85px;
+}
+
+.navbar-nav {
+    float: right;
+}
+
+.navbar-nav > li > a {
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus {
+    background: none;
+    color: #34c6d3;
+}
+
+.navbar-toggle {
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid #fff;
+    border: 0;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-collapse {
+    max-height: none !important;
+}
+
+.vesco-top-nav ul.navbar-nav > li.active > a {
+    color: #34c6d3;
+}
+
+
+***************************custom.js
+/*=============================
+       services
+==============================*/
+$(function () {
+    //animate on scroll
+    new WOW().init();
+});
+/*=============================
+      Work
+==============================*/
+$(function () {
+    $('.workMagnific').magnificPopup({
+        delegate: 'a', //child item selector ,by clicking on it popup will open
+        type: 'image',
+        gallery: {
+            enabled: true
+        }
+    });
+});
+/*=============================
+      Team
+==============================*/
+
+$(function () {
+    $("#team-members").owlCarousel({
+        items: 3,
+        autoplay: true,
+        smartSpeed: 700,
+        loop: true,
+        autoplayHoverPause: true,
+        resposive: {
+            //breakpoint from 0 up
+            0: {
+                items: 1
+            },
+            //breakpoint from 480 up
+            480: {
+                items: 2
+            },
+            //breakpoint from 768 up
+            768: {
+                items: 3
+            }
+        }
+    });
+});
+/*=============================
+      Testimonials
+==============================*/
+
+$(function () {
+    $("#customers-testimonials").owlCarousel({
+        items: 1,
+        autoplay: true,
+        smartSpeed: 700,
+        loop: true,
+        autoplayHoverPause: true
+    });
+});
+/*=============================
+    Stats
+==============================*/
+$(function () {
+    $('.counter').counterUp({
+        delay: 10,
+        time: 2000
+    });
+});
+/*=============================
+      Clients
+==============================*/
+
+$(function () {
+    $("#client-list").owlCarousel({
+        items: 6,
+        autoplay: true,
+        smartSpeed: 700,
+        loop: true,
+        autoplayHoverPause: true,
+        resposive: {
+            //breakpoint from 0 up
+            0: {
+                items: 1
+            },
+            //breakpoint from 480 up
+            480: {
+                items: 3
+            },
+            //breakpoint from 768 up
+            768: {
+                items: 5
+            },
+            //breakpoint from 992 up
+            992: {
+                items: 6
+            }
+
+        }
+    });
+});
+/*=============================
+      Navigation
+==============================*/
+$(function () {
+    $(window).scroll(function () {
+        if ($(this).scrollTop() < 50) {
+            //hide nav
+            $("nav").removeClass("vesco-top-nav");
+            $("#back-to-top").fadeOut();
+        } else {
+            //show nav
+            $("nav").addClass("vesco-top-nav");
+            $("#back-to-top").fadeIn();
+        }
+    })
+});
+/*=============================
+    Smooth scrolling
+==============================*/
+$(function () {
+    $("a.smooth-scroll").click(function (event) {
+        event.preventDefault();
+
+        //this=get/return id like,#home,#about etc(this)
+        var section = $(this).attr("href");
+
+        $('html,body').animate({
+                scrollTop: $(section).offset().top - 64
+            },
+            1250, "easeInOutExpo");
+    })
+});
+//Close mobile menu on click
+
+$(function () {
+    $(".navbar-collapse ul li a").on("click touch", function () {
+
+        $(".navbar-toggle").click();
+    });
+});
+
+****************responsive.css
+/*==================================
+Bootstrap 3 Media Queries
+====================================*/
+
+/* large Devices(Desktop and Laptops*/
+
+@media(min-width:1200px) {
+
+    /*OK*/
+}
+
+/*Medium Devices(landscape Tablets And Medium Desktops)*/
+
+@media(min-width: 992px) and (max-width: 1199px) {
+
+    .navbar {
+        background: rgba(0, 0, 0, 0.7);
+        padding: 0;
+    }
+
+    .navbar-nav {
+        float: left;
+    }
+
+    .vesco-nav-wrapper {
+        padding: 0;
+    }
+
+}
+
+/*Small Devices(Potrait Tabs and Small Desktops*/
+
+@media(min-width: 768px) and (max-width: 991px) {
+
+    .navbar {
+        background: rgba(0, 0, 0, 0.7);
+        padding: 0;
+    }
+
+    .navbar-nav {
+        float: left;
+    }
+
+    .vesco-nav-wrapper {
+        padding: 0;
+    }
+
+    /*About*/
+    #about-bg-diagonal {
+        border-left: 0;
+        border-top: 0;
+        width: 100%;
+        height: 350px;
+    }
+
+    #about-content-box {
+        width: 100%;
+        height: 350px;
+    }
+
+    #about {
+        padding-left: 0px;
+    }
+
+    #about-bg-diagonal {
+        margin-bottom: 10px;
+    }
+
+    #about .container {
+        margin-left: 3px;
+    }
+
+    /*Stats*/
+    .stats-item {
+        padding: 20px 0;
+    }
+
+    /*Footer menu*/
+    #footer-copyrights {
+        text-align: center;
+    }
+
+}
+
+/*Extra Small Devices(Landscapes phones And Potraits )*/
+
+@media(max-width:767px) {
+
+    .navbar {
+        background: rgba(0, 0, 0, 0.7);
+        padding: 0;
+    }
+
+    .navbar-nav {
+        float: left;
+    }
+
+    .vesco-nav-wrapper {
+        padding: 0;
+    }
+
+    /* Home*/
+    #home-heading h3 {
+        font-size: 24px;
+    }
+
+    /*Buttons*/
+    .btn-general {
+        padding: 6px 22px 6px 22px;
+        font-size: 14px;
+    }
+
+    /*About*/
+    #about-bg-diagonal {
+        border-left: 0;
+        border-top: 0;
+        width: 100%;
+        height: 350px;
+    }
+
+    #about-content-box {
+        width: 100%;
+        height: 350px;
+    }
+
+    #about {
+        padding-left: 0px;
+    }
+
+    #about-bg-diagonal {
+        margin-bottom: 10px;
+    }
+
+    #about .container {
+        margin-left: 3px;
+    }
+
+    .img-wrapper img {
+        min-width: 100%;
+    }
+
+    /*Testimonials*/
+    .testimonial blockquote {
+        padding: 6px 50px;
+    }
+
+    .testimonial blockquote ::before {
+        left: 10px;
+    }
+
+    .testimonial blockquote ::after {
+        right: 10px;
+    }
+
+    .testimonial blockquote p {
+        font-size: 14px;
+    }
+
+    /*Stats*/
+    .stats-item {
+        padding: 20px 0;
+    }
+
+    /*Footer menu*/
+    #footer-copyrights {
+        text-align: center;
+    }
+}
+
+/*Extra Small Devices(Landscapes phones And Potraits )*/
+
+@media(max-width:480px) {
+
+    /*OK*/
+}
+
+/*Extra Small Devices(Landscapes phones And Potraits )*/
+
+@media(max-width:320px) {
+
+    /*Services*/
+    .service-item-icon i {
+        width: 58px;
+        height: 58px;
+        padding: 7px;
+    }
+
+    .service-item-title h3 {
+        font-size: 17px;
+        ;
+    }
+
+    /*About*/
+    #about-content-box {
+        margin-top: 40px;
+    }
+
+    /*Testimonials*/
+
+    .testimonial img {
+        max-width: 80px;
+    }
+
+    .testimonial blockquote {
+        padding: 6px 30px;
+    }
+
+    .testimonial blockquote ::before {
+        left: 7px;
+    }
+
+    .testimonial blockquote ::after {
+        right: 7px;
+    }
+
+    .testimonial blockquote p {
+        font-size: 14px;
+    }
+
+
+
+
+}
